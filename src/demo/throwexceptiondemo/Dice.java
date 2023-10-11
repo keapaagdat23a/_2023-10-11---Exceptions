@@ -27,12 +27,6 @@ class TestDice {
 
     // THIS is what we're looking at:
 
-    if (true)
-      else
-        ;
-    default {
-      System.out.println("this");
-    }
     try {
       Dice dice = new Dice(-2);
     } catch (Exception e) {
